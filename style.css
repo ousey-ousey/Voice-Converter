@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(178deg, #2500ff, #00857d);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.hero h1 {
+    font: 500;
+    font-size: 45px;
+    color: white;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.hero h1 span{
+    color: #FE7A36;
+}
+textarea{
+    width: 679px;
+    height: 304px;
+    resize: none;
+    background: #FFF6E9;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    outline: none;
+    color: #000;
+    padding: 12px;
+    margin-bottom: 27px;
+}
+textarea::placeholder{
+    font-size: 18px;
+    color: #140000;
+}
+.row{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+button{
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background: #FE7A36;
+    color: white;
+    outline: none;
+    display: flex;
+    border-radius: 20px;
+    font-size: 17px;
+    width: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+
+}
+
+button img {
+    width: 20px;
+}
+select{
+    color: #ffffff;
+    background: #2c19006c;
+height: 40px;
+font-family: 'Roboto', sans-serif;
+border: none;
+outline: none;
+padding: 0 20px;
+border-radius: 10px;
+flex: 1;
+appearance: none;
+background-image: url(images/dropdown.png);
+background-repeat: no-repeat;
+background-size: 19px;
+background-position-x: calc(100% - 8px);
+background-position-y: 14px;
+}
+
